@@ -1,0 +1,33 @@
+@media screen and (max-width: 768px) {
+    
+    
+    .productos{
+        flex-direction: column;
+    }
+    
+    .formulario {    
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: repeat(3, 1fr);
+            grid-template-areas:
+                "caja1 caja2"
+                "caja3 caja4"
+                "caja5 caja6";
+                
+        }
+}
+
+@media screen and (max-width: 480px) {
+  
+    .formulario {
+            height: 100vh;
+            display: flex;
+            flex-direction: column; 
+            align-items: stretch;
+        }
+    .caja{
+        background-color: black;
+        color: white;
+        flex: 1;
+    }    
+    
+}

@@ -1,0 +1,176 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    list-style-type: none;
+     }
+
+
+.cabeza{ 
+    display: flex;
+    justify-content: space-evenly;
+    background-repeat: none;   
+}
+
+
+.cabeza, .nav-item {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 100%;
+    text-transform: uppercase;
+}
+
+.nav-item:hover {
+    text-decoration: underline;
+}
+
+.active {
+    text-decoration: underline;
+}
+
+.navbar navbar-expand-lg bg-light{
+    display: grid;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+body {    
+    background-image: url(../img/AnimatedShape.svg);
+        font-family: 'Roboto Condensed', sans-serif;
+        background-repeat: none;
+        background-size: cover;
+        color: white;
+}
+
+
+
+.video-index{      
+    width: 100%;    
+}
+
+header {
+    border-bottom: 1px solid rgb(0, 145, 255, 0.8);
+    padding: 0.5em;
+    background-color: rgba(0, 145, 255, 0.8);
+}
+
+
+.armada1{    
+    width: 10;
+    height: 10;
+
+}
+
+
+.productos {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+
+.productosOrden {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;   
+    padding: 2em;
+    
+}
+
+.button:hover{
+    border: solid 2px black;
+    transition: 3s;   
+    background-color: green;
+
+}
+
+.comprar-ahora:hover{
+    border: solid 3px black;
+    transition: 3s;
+    background-color: aqua;
+}
+
+
+.redes {
+    width: 1.5em;
+    height: 1.5em;
+}
+
+.separadoImg {
+    display: flex;
+    justify-content: space-between;
+           
+}
+
+.formulario{
+    
+    height: 10%;
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+        "caja caja1 caja2 caja3"
+        
+
+    
+}
+.formula{
+    margin-left: 35%;
+    align-items: center;
+    
+}
+.caja{
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.caja1 {
+    grid-area: caja1;
+}
+.caja2 {
+    grid-area: caja2;
+}
+.caja3 {
+    grid-area: caja3;
+}
+.caja4 {
+    grid-area: caja4;
+}
+.caja5 {
+    grid-area: caja5;
+}
+.caja6 {
+    grid-area: caja6;
+}
+
+.caja_texto {
+    border: none;
+    outline: none;
+}
+
+footer {
+    padding-inline: 7rem;
+    padding-block: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-top: 1px solid black;
+    margin-top: 5%;
+    /* 
+    background-image: url(../FOTOS/fondo_cajas.svg);
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+
+.copySrl {
+    color: white;
+}
+
+
+
+
